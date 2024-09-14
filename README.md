@@ -20,3 +20,9 @@ This project implements a Multilayer Perceptron (MLP) to classify the MNIST data
 - Python 3.8+
 - PyTorch
 - Optuna
+
+# Results
+
+I added in the results folder the results I got with the current setup.
+<br>
+This includes the best hyperparameters, the evaluation results on the test set and the best model script.
