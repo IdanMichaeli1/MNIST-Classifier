@@ -1,0 +1,17 @@
+[
+    {
+        "Total Accuracy": 0.9795
+    },
+    {
+        "Label 0 Accuracy": 0.9847,
+        "Label 1 Accuracy": 0.993,
+        "Label 2 Accuracy": 0.9787,
+        "Label 3 Accuracy": 0.9822,
+        "Label 4 Accuracy": 0.9807,
+        "Label 5 Accuracy": 0.9787,
+        "Label 6 Accuracy": 0.9843,
+        "Label 7 Accuracy": 0.9689,
+        "Label 8 Accuracy": 0.9774,
+        "Label 9 Accuracy": 0.9653
+    }
+]
