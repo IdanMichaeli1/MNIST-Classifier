@@ -16,13 +16,10 @@ from typing import Any, Callable, Optional
 class MLP(nn.Module):
     def __init__(self, n_features:int, n_targets:int, hidden_dim: int, n_layers: int, dropout: float) -> None:
         super().__init__()
-        
         layers = []
+        
         for _ in range(n_layers):
-            if not len(layers):
-                in_dim = n_features
-            else:
-                in_dim = hidden_dim
+            in_dim = n_features if not len(layers) else hidden_dim
             
             layers += [
                 nn.Linear(in_dim, hidden_dim), 
